@@ -69,11 +69,12 @@ header .dropdown {
 }
 .dropdown_menu {
   position: absolute;
-  background-color: yellow;
-  width: 100px;
+  background-color: #d9d9d9;
+  width: 200px;
   padding: 10px;
   top: 40px;
   display: none;
+  border-radius: 15px;
 }
 header .menu a {
   color: #8b8e99;
@@ -81,9 +82,9 @@ header .menu a {
   padding: 10px 0;
   display: block;
 }
-/* header .dropdown:hover ~ .dropdown_menu {
+header .dropdown:hover ~ .dropdown_menu {
   display: block;
-} */
+}
 header .dropdown:hover svg {
   transform: rotate(180deg);
 }
